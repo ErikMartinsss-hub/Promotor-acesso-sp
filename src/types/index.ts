@@ -20,6 +20,9 @@ export interface AppUser {
 export interface Brand {
   id: string
   name: string
+  razaoSocial: string
+  cnpj: string
+  nomeFantasia?: string
   active: boolean
   createdAt: number
 }
