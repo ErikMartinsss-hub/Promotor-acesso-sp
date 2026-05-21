@@ -1,4 +1,4 @@
-# Promotor-Acesso SP
+# AccessPromo
 
 # React + TypeScript + Vite
 

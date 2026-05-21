@@ -147,7 +147,7 @@ export default function PublicRegister() {
       <div className="w-full max-w-lg">
         <div className="text-center mb-6">
           <h1 className="text-xl font-black tracking-tight mb-1">
-            ACESSO<span className="text-[#00A8E1]">PROMOTOR</span>
+            Access<span className="text-[#00A8E1]">Promo</span>
           </h1>
           <p className="text-[#8197a4] text-sm font-bold">Cadastro</p>
         </div>

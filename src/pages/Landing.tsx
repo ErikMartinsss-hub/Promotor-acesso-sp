@@ -8,7 +8,7 @@ export default function Landing() {
     <div className="min-h-screen bg-[#0f171e] flex flex-col items-center justify-center p-4">
       <div className="text-center mb-12">
         <h1 className="text-3xl font-black tracking-tight mb-2">
-          ACESSO<span className="text-[#00A8E1]">PROMOTOR</span>
+          Access<span className="text-[#00A8E1]">Promo</span>
         </h1>
         <p className="text-[#8197a4] text-sm font-bold">Controle de Acesso</p>
       </div>
@@ -38,7 +38,7 @@ export default function Landing() {
       </div>
 
       <p className="mt-12 text-[10px] text-[#3a4a58] font-black tracking-widest">
-        ACESSO PROMOTOR © {new Date().getFullYear()}
+        AccessPromo © {new Date().getFullYear()}
       </p>
     </div>
   )
