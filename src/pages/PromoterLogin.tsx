@@ -4,6 +4,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../firebase/config'
 import { getPromoterByCpf } from '../lib/firestore'
 import { LogIn, Eye, EyeOff, MessageSquare } from 'lucide-react'
+import logo from '../assets/logo.png'
 
 export default function PromoterLogin() {
   const navigate = useNavigate()
@@ -85,9 +86,7 @@ export default function PromoterLogin() {
     <div className="min-h-screen bg-[#0f171e] flex items-center justify-center p-4">
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
-          <h1 className="text-2xl font-black tracking-tight mb-1">
-            Access<span className="text-[#00A8E1]">Promo</span>
-          </h1>
+          <img src={logo} alt="AccessPromo" className="h-12 mx-auto mb-2" />
           <p className="text-[#8197a4] text-sm font-bold">Login do Promotor</p>
         </div>
 
