@@ -7,7 +7,6 @@ import type { Network, Brand, PromoterType } from '../types'
 import { VISIT_DAYS } from '../types'
 import { QRCodeCanvas } from 'qrcode.react'
 import { UserPlus, CheckCircle } from 'lucide-react'
-import logo from '../assets/logo.png'
 
 function generateToken(): string {
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
@@ -147,7 +146,9 @@ export default function PublicRegister() {
     <div className="min-h-screen bg-[#0f171e] flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-lg">
         <div className="text-center mb-6">
-          <img src={logo} alt="AccessPromo" className="h-12 mx-auto mb-2" />
+          <h1 className="text-xl font-black tracking-[0.12em] mb-1">
+            Access<span className="text-[#00A8E1]">Promo</span>
+          </h1>
           <p className="text-[#8197a4] text-sm font-bold">Cadastro</p>
         </div>
 
