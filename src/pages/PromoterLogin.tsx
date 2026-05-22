@@ -86,7 +86,7 @@ export default function PromoterLogin() {
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
           <h1 className="text-2xl font-black tracking-[0.12em] mb-1">
-            Access<span className="text-[#00A8E1]">Promo</span>
+            Acess<span className="text-[#00A8E1]">Promo</span>
           </h1>
           <p className="text-[#8197a4] text-sm font-bold">Login do Promotor</p>
         </div>

@@ -47,7 +47,7 @@ export default function Layout() {
       }`}>
         <div className="flex items-center justify-between px-5 h-16 border-b border-[#2a3a48]">
           <div>
-            <h1 className="text-base font-black tracking-[0.1em]">Access<span className="text-[#00A8E1]">Promo</span></h1>
+            <h1 className="text-base font-black tracking-[0.1em]">Acess<span className="text-[#00A8E1]">Promo</span></h1>
             <p className="text-[10px] text-[#8197a4] font-bold">{profile?.name}</p>
           </div>
           <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-[#8197a4] hover:text-white">
@@ -118,7 +118,7 @@ export default function Layout() {
           <button onClick={() => setSidebarOpen(true)} className="text-[#8197a4] hover:text-white">
             <Menu size={22} />
           </button>
-          <h1 className="text-sm font-black tracking-[0.1em]">Access<span className="text-[#00A8E1]">Promo</span></h1>
+          <h1 className="text-sm font-black tracking-[0.1em]">Acess<span className="text-[#00A8E1]">Promo</span></h1>
           <div />
         </header>
 
