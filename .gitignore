@@ -26,3 +26,7 @@ dist-ssr
 # Service account (Firebase Admin SDK)
 server/node_modules
 api/service-account.json
+
+# Environment variables
+.env
+.env.local
