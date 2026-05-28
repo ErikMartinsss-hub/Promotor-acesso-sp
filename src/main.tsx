@@ -4,13 +4,16 @@ import './index.css'
 import App from './App'
 
 try {
+  window.__debug?.('3. main.tsx iniciando')
   createRoot(document.getElementById('root')!).render(
     <StrictMode>
       <App />
     </StrictMode>,
   )
-  console.log('React montou com sucesso')
+  window.__debug?.('4. React montou')
 } catch (e) {
+  const msg = e instanceof Error ? e.message : String(e)
+  window.__error?.(msg)
   document.getElementById('root')!.innerHTML =
-    `<p style="color:red;font-family:sans-serif">Erro: ${e instanceof Error ? e.message : String(e)}</p>`
+    `<p class="dbg-err">Erro: ${msg}</p>`
 }
