@@ -8,15 +8,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
     <style>
-      .loading { display: flex; align-items: center; justify-content: center; min-height: 100vh; background: #0f171e; }
+      .loading { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; background: #0f171e; gap: 12px; }
     </style>
   </head>
   <body>
     <div id="root">
-      <div class="loading">
+      <div class="loading" id="loading">
         <p style="color:#8197a4;font-weight:bold;font-family:sans-serif">Carregando...</p>
+        <p id="debug" style="color:#5a6a78;font-size:12px;font-family:sans-serif"></p>
       </div>
     </div>
+    <script>
+      document.getElementById('debug').textContent = '1. HTML carregado'
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

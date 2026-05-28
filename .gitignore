@@ -30,3 +30,5 @@ api/service-account.json
 # Environment variables
 .env
 .env.local
+
+.vercel
